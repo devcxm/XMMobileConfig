@@ -1,0 +1,29 @@
+//
+//  XM-Prefix.pch
+//  XMMobileConfigDemo
+//
+//  Created by chi on 15/7/1.
+//  Copyright (c) 2015年 chi. All rights reserved.
+//
+
+#ifndef XMWiFiConnecterDemo_XM_Prefix_pch
+#define XMWiFiConnecterDemo_XM_Prefix_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#pragma makr - libs
+#import <FXForms/FXForms.h>
+
+#ifdef DEBUG
+#define XMLog(...) NSLog(__VA_ARGS__);
+#else
+#define XMLog(...)
+#endif
+
+#endif
+
+#endif

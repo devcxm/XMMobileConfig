@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EncryptionType</key>
+			<string>Any</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>Password</key>
+			<string>abc123457</string>
+			<key>PayloadDisplayName</key>
+			<string>Test WiFi From File</string>
+			<key>PayloadIdentifier</key>
+			<string>com.devcxm.wifi.file</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>F68D18C8-23A2-413B-A2AF-65F43E970B4C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SSID_STR</key>
+			<string>devcxm's wifi</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>XMWiFiConnecter File Test</string>
+	<key>PayloadDisplayName</key>
+	<string>XMWiFiConnecterDemo</string>
+	<key>PayloadIdentifier</key>
+	<string>com.cxmios.wlan</string>
+	<key>PayloadOrganization</key>
+	<string>devcxm organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C5D1927E-C4AA-4FAD-8A1C-D816D3D573F2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21B70291B63789000CFD0AF /* CustomAppAccessForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C21B70281B63789000CFD0AF /* CustomAppAccessForm.m */; };
+		C21B702D1B637D5C00CFD0AF /* XMAppAccessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C21B702C1B637D5C00CFD0AF /* XMAppAccessModel.m */; };
+		C26E745F1B61EE960095E087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26E745D1B61EE960095E087 /* Main.storyboard */; };
+		C26E74611B61EE960095E087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26E74601B61EE960095E087 /* Images.xcassets */; };
+		C26E74641B61EE960095E087 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C26E74621B61EE960095E087 /* LaunchScreen.xib */; };
+		C26E74701B61EE960095E087 /* XMMobileConfigDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E746F1B61EE960095E087 /* XMMobileConfigDemoTests.m */; };
+		C26E749B1B620B4F0095E087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E747C1B620B4F0095E087 /* AppDelegate.m */; };
+		C26E749C1B620B4F0095E087 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74811B620B4F0095E087 /* MainViewController.m */; };
+		C26E749D1B620B4F0095E087 /* QRSCannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74831B620B4F0095E087 /* QRSCannerController.m */; };
+		C26E749E1B620B4F0095E087 /* CustomWebClipForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74861B620B4F0095E087 /* CustomWebClipForm.m */; };
+		C26E749F1B620B4F0095E087 /* CustomWiFiForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74881B620B4F0095E087 /* CustomWiFiForm.m */; };
+		C26E74A01B620B4F0095E087 /* MainForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E748A1B620B4F0095E087 /* MainForm.m */; };
+		C26E74A11B620B4F0095E087 /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C26E748D1B620B4F0095E087 /* BarcodeScanner.bundle */; };
+		C26E74A21B620B4F0095E087 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E748F1B620B4F0095E087 /* MTBBarcodeScanner.m */; };
+		C26E74A31B620B4F0095E087 /* XMScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74911B620B4F0095E087 /* XMScannerView.m */; };
+		C26E74A41B620B4F0095E087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74931B620B4F0095E087 /* main.m */; };
+		C26E74A51B620B4F0095E087 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = C26E74971B620B4F0095E087 /* github.png */; };
+		C26E74A61B620B4F0095E087 /* testqrwifi.png in Resources */ = {isa = PBXBuildFile; fileRef = C26E74981B620B4F0095E087 /* testqrwifi.png */; };
+		C26E74A71B620B4F0095E087 /* xmwifi.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = C26E749A1B620B4F0095E087 /* xmwifi.mobileconfig */; };
+		C26E74C01B620BCF0095E087 /* NSObject+XM.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74AE1B620BCF0095E087 /* NSObject+XM.m */; };
+		C26E74C11B620BCF0095E087 /* XMBasePayloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74B01B620BCF0095E087 /* XMBasePayloadModel.m */; };
+		C26E74C21B620BCF0095E087 /* XMVPNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74B31B620BCF0095E087 /* XMVPNModel.m */; };
+		C26E74C31B620BCF0095E087 /* XMWebClipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74B61B620BCF0095E087 /* XMWebClipModel.m */; };
+		C26E74C41B620BCF0095E087 /* XMWiFiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74B91B620BCF0095E087 /* XMWiFiModel.m */; };
+		C26E74C51B620BCF0095E087 /* XMMBConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74BB1B620BCF0095E087 /* XMMBConfigModel.m */; };
+		C26E74C61B620BCF0095E087 /* XMMBConfigTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E74BD1B620BCF0095E087 /* XMMBConfigTool.m */; };
+		DDC95B7F207B74A9995460FA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D8998E1A952ECBA6215E94 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26E746A1B61EE960095E087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26E74481B61EE960095E087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26E744F1B61EE960095E087;
+			remoteInfo = XMMobileConfigDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		507C174482845386F37CDAAA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A3D8998E1A952ECBA6215E94 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21B70271B63789000CFD0AF /* CustomAppAccessForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAppAccessForm.h; sourceTree = "<group>"; };
+		C21B70281B63789000CFD0AF /* CustomAppAccessForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAppAccessForm.m; sourceTree = "<group>"; };
+		C21B702B1B637D5C00CFD0AF /* XMAppAccessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMAppAccessModel.h; sourceTree = "<group>"; };
+		C21B702C1B637D5C00CFD0AF /* XMAppAccessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMAppAccessModel.m; sourceTree = "<group>"; };
+		C26E74501B61EE960095E087 /* XMMobileConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMMobileConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26E74541B61EE960095E087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26E745E1B61EE960095E087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C26E74601B61EE960095E087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C26E74631B61EE960095E087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C26E74691B61EE960095E087 /* XMMobileConfigDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMMobileConfigDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26E746E1B61EE960095E087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26E746F1B61EE960095E087 /* XMMobileConfigDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMobileConfigDemoTests.m; sourceTree = "<group>"; };
+		C26E747B1B620B4F0095E087 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26E747C1B620B4F0095E087 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26E74801B620B4F0095E087 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C26E74811B620B4F0095E087 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C26E74821B620B4F0095E087 /* QRSCannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRSCannerController.h; sourceTree = "<group>"; };
+		C26E74831B620B4F0095E087 /* QRSCannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRSCannerController.m; sourceTree = "<group>"; };
+		C26E74851B620B4F0095E087 /* CustomWebClipForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWebClipForm.h; sourceTree = "<group>"; };
+		C26E74861B620B4F0095E087 /* CustomWebClipForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWebClipForm.m; sourceTree = "<group>"; };
+		C26E74871B620B4F0095E087 /* CustomWiFiForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWiFiForm.h; sourceTree = "<group>"; };
+		C26E74881B620B4F0095E087 /* CustomWiFiForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWiFiForm.m; sourceTree = "<group>"; };
+		C26E74891B620B4F0095E087 /* MainForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainForm.h; sourceTree = "<group>"; };
+		C26E748A1B620B4F0095E087 /* MainForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainForm.m; sourceTree = "<group>"; };
+		C26E748D1B620B4F0095E087 /* BarcodeScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BarcodeScanner.bundle; sourceTree = "<group>"; };
+		C26E748E1B620B4F0095E087 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBBarcodeScanner.h; sourceTree = "<group>"; };
+		C26E748F1B620B4F0095E087 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBBarcodeScanner.m; sourceTree = "<group>"; };
+		C26E74901B620B4F0095E087 /* XMScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMScannerView.h; sourceTree = "<group>"; };
+		C26E74911B620B4F0095E087 /* XMScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMScannerView.m; sourceTree = "<group>"; };
+		C26E74931B620B4F0095E087 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C26E74941B620B4F0095E087 /* XM-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XM-Prefix.pch"; sourceTree = "<group>"; };
+		C26E74971B620B4F0095E087 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		C26E74981B620B4F0095E087 /* testqrwifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testqrwifi.png; sourceTree = "<group>"; };
+		C26E749A1B620B4F0095E087 /* xmwifi.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xmwifi.mobileconfig; sourceTree = "<group>"; };
+		C26E74AD1B620BCF0095E087 /* NSObject+XM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XM.h"; sourceTree = "<group>"; };
+		C26E74AE1B620BCF0095E087 /* NSObject+XM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XM.m"; sourceTree = "<group>"; };
+		C26E74AF1B620BCF0095E087 /* XMBasePayloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBasePayloadModel.h; sourceTree = "<group>"; };
+		C26E74B01B620BCF0095E087 /* XMBasePayloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBasePayloadModel.m; sourceTree = "<group>"; };
+		C26E74B21B620BCF0095E087 /* XMVPNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMVPNModel.h; sourceTree = "<group>"; };
+		C26E74B31B620BCF0095E087 /* XMVPNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMVPNModel.m; sourceTree = "<group>"; };
+		C26E74B51B620BCF0095E087 /* XMWebClipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMWebClipModel.h; sourceTree = "<group>"; };
+		C26E74B61B620BCF0095E087 /* XMWebClipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMWebClipModel.m; sourceTree = "<group>"; };
+		C26E74B81B620BCF0095E087 /* XMWiFiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMWiFiModel.h; sourceTree = "<group>"; };
+		C26E74B91B620BCF0095E087 /* XMWiFiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMWiFiModel.m; sourceTree = "<group>"; };
+		C26E74BA1B620BCF0095E087 /* XMMBConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMMBConfigModel.h; sourceTree = "<group>"; };
+		C26E74BB1B620BCF0095E087 /* XMMBConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMMBConfigModel.m; sourceTree = "<group>"; };
+		C26E74BC1B620BCF0095E087 /* XMMBConfigTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMMBConfigTool.h; sourceTree = "<group>"; };
+		C26E74BD1B620BCF0095E087 /* XMMBConfigTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMMBConfigTool.m; sourceTree = "<group>"; };
+		C26E74BE1B620BCF0095E087 /* XMMobileConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMMobileConfig.h; sourceTree = "<group>"; };
+		E327D3528050D0E41A0767C9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26E744D1B61EE960095E087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC95B7F207B74A9995460FA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26E74661B61EE960095E087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8C1200DF2A810B22C4CE85A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				507C174482845386F37CDAAA /* Pods.debug.xcconfig */,
+				E327D3528050D0E41A0767C9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C21B702A1B637D5C00CFD0AF /* AppAceess */ = {
+			isa = PBXGroup;
+			children = (
+				C21B702B1B637D5C00CFD0AF /* XMAppAccessModel.h */,
+				C21B702C1B637D5C00CFD0AF /* XMAppAccessModel.m */,
+			);
+			path = AppAceess;
+			sourceTree = "<group>";
+		};
+		C26E74471B61EE960095E087 = {
+			isa = PBXGroup;
+			children = (
+				C26E74A81B620BCF0095E087 /* XMMobileConfig */,
+				C26E74521B61EE960095E087 /* XMMobileConfigDemo */,
+				C26E746C1B61EE960095E087 /* XMMobileConfigDemoTests */,
+				C26E74511B61EE960095E087 /* Products */,
+				B8C1200DF2A810B22C4CE85A /* Pods */,
+				C6D4AEFE07D19C2E2AA010F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C26E74511B61EE960095E087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74501B61EE960095E087 /* XMMobileConfigDemo.app */,
+				C26E74691B61EE960095E087 /* XMMobileConfigDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26E74521B61EE960095E087 /* XMMobileConfigDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74791B620B4F0095E087 /* Classes */,
+				C26E74921B620B4F0095E087 /* Other Sources */,
+				C26E74951B620B4F0095E087 /* Resources */,
+				C26E745D1B61EE960095E087 /* Main.storyboard */,
+				C26E74601B61EE960095E087 /* Images.xcassets */,
+				C26E74621B61EE960095E087 /* LaunchScreen.xib */,
+				C26E74531B61EE960095E087 /* Supporting Files */,
+			);
+			path = XMMobileConfigDemo;
+			sourceTree = "<group>";
+		};
+		C26E74531B61EE960095E087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74541B61EE960095E087 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C26E746C1B61EE960095E087 /* XMMobileConfigDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26E746F1B61EE960095E087 /* XMMobileConfigDemoTests.m */,
+				C26E746D1B61EE960095E087 /* Supporting Files */,
+			);
+			path = XMMobileConfigDemoTests;
+			sourceTree = "<group>";
+		};
+		C26E746D1B61EE960095E087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26E746E1B61EE960095E087 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C26E74791B620B4F0095E087 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C26E747A1B620B4F0095E087 /* AppDelegate */,
+				C26E747D1B620B4F0095E087 /* Sections */,
+				C26E748B1B620B4F0095E087 /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C26E747A1B620B4F0095E087 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C26E747B1B620B4F0095E087 /* AppDelegate.h */,
+				C26E747C1B620B4F0095E087 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C26E747D1B620B4F0095E087 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				C26E747E1B620B4F0095E087 /* Main */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		C26E747E1B620B4F0095E087 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C26E747F1B620B4F0095E087 /* Controllers */,
+				C26E74841B620B4F0095E087 /* Models */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C26E747F1B620B4F0095E087 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74801B620B4F0095E087 /* MainViewController.h */,
+				C26E74811B620B4F0095E087 /* MainViewController.m */,
+				C26E74821B620B4F0095E087 /* QRSCannerController.h */,
+				C26E74831B620B4F0095E087 /* QRSCannerController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C26E74841B620B4F0095E087 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74851B620B4F0095E087 /* CustomWebClipForm.h */,
+				C26E74861B620B4F0095E087 /* CustomWebClipForm.m */,
+				C26E74871B620B4F0095E087 /* CustomWiFiForm.h */,
+				C26E74881B620B4F0095E087 /* CustomWiFiForm.m */,
+				C21B70271B63789000CFD0AF /* CustomAppAccessForm.h */,
+				C21B70281B63789000CFD0AF /* CustomAppAccessForm.m */,
+				C26E74891B620B4F0095E087 /* MainForm.h */,
+				C26E748A1B620B4F0095E087 /* MainForm.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C26E748B1B620B4F0095E087 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				C26E748C1B620B4F0095E087 /* XMScannerView */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		C26E748C1B620B4F0095E087 /* XMScannerView */ = {
+			isa = PBXGroup;
+			children = (
+				C26E748D1B620B4F0095E087 /* BarcodeScanner.bundle */,
+				C26E748E1B620B4F0095E087 /* MTBBarcodeScanner.h */,
+				C26E748F1B620B4F0095E087 /* MTBBarcodeScanner.m */,
+				C26E74901B620B4F0095E087 /* XMScannerView.h */,
+				C26E74911B620B4F0095E087 /* XMScannerView.m */,
+			);
+			path = XMScannerView;
+			sourceTree = "<group>";
+		};
+		C26E74921B620B4F0095E087 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74931B620B4F0095E087 /* main.m */,
+				C26E74941B620B4F0095E087 /* XM-Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		C26E74951B620B4F0095E087 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74961B620B4F0095E087 /* Images */,
+				C26E74991B620B4F0095E087 /* Other */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C26E74961B620B4F0095E087 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74971B620B4F0095E087 /* github.png */,
+				C26E74981B620B4F0095E087 /* testqrwifi.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C26E74991B620B4F0095E087 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C26E749A1B620B4F0095E087 /* xmwifi.mobileconfig */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C26E74A81B620BCF0095E087 /* XMMobileConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C21B702A1B637D5C00CFD0AF /* AppAceess */,
+				C26E74AC1B620BCF0095E087 /* Base */,
+				C26E74B11B620BCF0095E087 /* VPN */,
+				C26E74B41B620BCF0095E087 /* WebClip */,
+				C26E74B71B620BCF0095E087 /* WiFi */,
+				C26E74BA1B620BCF0095E087 /* XMMBConfigModel.h */,
+				C26E74BB1B620BCF0095E087 /* XMMBConfigModel.m */,
+				C26E74BC1B620BCF0095E087 /* XMMBConfigTool.h */,
+				C26E74BD1B620BCF0095E087 /* XMMBConfigTool.m */,
+				C26E74BE1B620BCF0095E087 /* XMMobileConfig.h */,
+			);
+			name = XMMobileConfig;
+			path = ../XMMobileConfig;
+			sourceTree = "<group>";
+		};
+		C26E74AC1B620BCF0095E087 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74AD1B620BCF0095E087 /* NSObject+XM.h */,
+				C26E74AE1B620BCF0095E087 /* NSObject+XM.m */,
+				C26E74AF1B620BCF0095E087 /* XMBasePayloadModel.h */,
+				C26E74B01B620BCF0095E087 /* XMBasePayloadModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C26E74B11B620BCF0095E087 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74B21B620BCF0095E087 /* XMVPNModel.h */,
+				C26E74B31B620BCF0095E087 /* XMVPNModel.m */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		C26E74B41B620BCF0095E087 /* WebClip */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74B51B620BCF0095E087 /* XMWebClipModel.h */,
+				C26E74B61B620BCF0095E087 /* XMWebClipModel.m */,
+			);
+			path = WebClip;
+			sourceTree = "<group>";
+		};
+		C26E74B71B620BCF0095E087 /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				C26E74B81B620BCF0095E087 /* XMWiFiModel.h */,
+				C26E74B91B620BCF0095E087 /* XMWiFiModel.m */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		C6D4AEFE07D19C2E2AA010F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D8998E1A952ECBA6215E94 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26E744F1B61EE960095E087 /* XMMobileConfigDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26E74731B61EE960095E087 /* Build configuration list for PBXNativeTarget "XMMobileConfigDemo" */;
+			buildPhases = (
+				17BE867F06EC2C183D66E848 /* Check Pods Manifest.lock */,
+				C26E744C1B61EE960095E087 /* Sources */,
+				C26E744D1B61EE960095E087 /* Frameworks */,
+				C26E744E1B61EE960095E087 /* Resources */,
+				8E35FFC643B01CEF9A23CC46 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMMobileConfigDemo;
+			productName = XMMobileConfigDemo;
+			productReference = C26E74501B61EE960095E087 /* XMMobileConfigDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C26E74681B61EE960095E087 /* XMMobileConfigDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26E74761B61EE960095E087 /* Build configuration list for PBXNativeTarget "XMMobileConfigDemoTests" */;
+			buildPhases = (
+				C26E74651B61EE960095E087 /* Sources */,
+				C26E74661B61EE960095E087 /* Frameworks */,
+				C26E74671B61EE960095E087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26E746B1B61EE960095E087 /* PBXTargetDependency */,
+			);
+			name = XMMobileConfigDemoTests;
+			productName = XMMobileConfigDemoTests;
+			productReference = C26E74691B61EE960095E087 /* XMMobileConfigDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26E74481B61EE960095E087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = chi;
+				TargetAttributes = {
+					C26E744F1B61EE960095E087 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C26E74681B61EE960095E087 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C26E744F1B61EE960095E087;
+					};
+				};
+			};
+			buildConfigurationList = C26E744B1B61EE960095E087 /* Build configuration list for PBXProject "XMMobileConfigDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26E74471B61EE960095E087;
+			productRefGroup = C26E74511B61EE960095E087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26E744F1B61EE960095E087 /* XMMobileConfigDemo */,
+				C26E74681B61EE960095E087 /* XMMobileConfigDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26E744E1B61EE960095E087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26E745F1B61EE960095E087 /* Main.storyboard in Resources */,
+				C26E74A51B620B4F0095E087 /* github.png in Resources */,
+				C26E74641B61EE960095E087 /* LaunchScreen.xib in Resources */,
+				C26E74611B61EE960095E087 /* Images.xcassets in Resources */,
+				C26E74A71B620B4F0095E087 /* xmwifi.mobileconfig in Resources */,
+				C26E74A11B620B4F0095E087 /* BarcodeScanner.bundle in Resources */,
+				C26E74A61B620B4F0095E087 /* testqrwifi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26E74671B61EE960095E087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17BE867F06EC2C183D66E848 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E35FFC643B01CEF9A23CC46 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26E744C1B61EE960095E087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26E74C31B620BCF0095E087 /* XMWebClipModel.m in Sources */,
+				C26E74C01B620BCF0095E087 /* NSObject+XM.m in Sources */,
+				C26E74C11B620BCF0095E087 /* XMBasePayloadModel.m in Sources */,
+				C26E74A41B620B4F0095E087 /* main.m in Sources */,
+				C26E749B1B620B4F0095E087 /* AppDelegate.m in Sources */,
+				C26E74A31B620B4F0095E087 /* XMScannerView.m in Sources */,
+				C26E74C51B620BCF0095E087 /* XMMBConfigModel.m in Sources */,
+				C26E74C41B620BCF0095E087 /* XMWiFiModel.m in Sources */,
+				C26E74C61B620BCF0095E087 /* XMMBConfigTool.m in Sources */,
+				C26E74A01B620B4F0095E087 /* MainForm.m in Sources */,
+				C26E74C21B620BCF0095E087 /* XMVPNModel.m in Sources */,
+				C26E749D1B620B4F0095E087 /* QRSCannerController.m in Sources */,
+				C26E74A21B620B4F0095E087 /* MTBBarcodeScanner.m in Sources */,
+				C21B70291B63789000CFD0AF /* CustomAppAccessForm.m in Sources */,
+				C21B702D1B637D5C00CFD0AF /* XMAppAccessModel.m in Sources */,
+				C26E749E1B620B4F0095E087 /* CustomWebClipForm.m in Sources */,
+				C26E749F1B620B4F0095E087 /* CustomWiFiForm.m in Sources */,
+				C26E749C1B620B4F0095E087 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26E74651B61EE960095E087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26E74701B61EE960095E087 /* XMMobileConfigDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C26E746B1B61EE960095E087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26E744F1B61EE960095E087 /* XMMobileConfigDemo */;
+			targetProxy = C26E746A1B61EE960095E087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C26E745D1B61EE960095E087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26E745E1B61EE960095E087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C26E74621B61EE960095E087 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26E74631B61EE960095E087 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C26E74711B61EE960095E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C26E74721B61EE960095E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26E74741B61EE960095E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507C174482845386F37CDAAA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/${PROJECT_NAME}/Other Sources/XM-Prefix.pch";
+				INFOPLIST_FILE = XMMobileConfigDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C26E74751B61EE960095E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E327D3528050D0E41A0767C9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/${PROJECT_NAME}/Other Sources/XM-Prefix.pch";
+				INFOPLIST_FILE = XMMobileConfigDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C26E74771B61EE960095E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XMMobileConfigDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMMobileConfigDemo.app/XMMobileConfigDemo";
+			};
+			name = Debug;
+		};
+		C26E74781B61EE960095E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XMMobileConfigDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMMobileConfigDemo.app/XMMobileConfigDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26E744B1B61EE960095E087 /* Build configuration list for PBXProject "XMMobileConfigDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26E74711B61EE960095E087 /* Debug */,
+				C26E74721B61EE960095E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26E74731B61EE960095E087 /* Build configuration list for PBXNativeTarget "XMMobileConfigDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26E74741B61EE960095E087 /* Debug */,
+				C26E74751B61EE960095E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26E74761B61EE960095E087 /* Build configuration list for PBXNativeTarget "XMMobileConfigDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26E74771B61EE960095E087 /* Debug */,
+				C26E74781B61EE960095E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26E74481B61EE960095E087 /* Project object */;
+}
