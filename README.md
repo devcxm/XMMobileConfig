@@ -10,6 +10,7 @@ Generate .mobileconfig file to custom WiFi/AppAccess/WebClip/VPN on iOS platform
 ```ruby
 cd XMMobileConfig/XMMobileConfigDemo
 pod install
+open XMMobileConfigDemo.xcworkspace
 ```
 
 ## License
